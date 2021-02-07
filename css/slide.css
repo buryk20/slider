@@ -1,0 +1,49 @@
+.itk-slider {
+  max-height: 448px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.itk-slider .slide-img {
+  width: 80%;
+
+  margin-bottom: 50px;
+}
+
+.show-prev-btn {
+  position: absolute;
+  left: -14px;
+  padding: 25px 25px;
+  background-color: aqua;
+  border: 1px solid aqua;
+  border-radius: 5px;
+
+  font-size: 50px;
+  color: blueviolet;
+
+  cursor: pointer;
+}
+
+.show-next-btn {
+  position: absolute;
+  right: -14px;
+
+  padding: 25px 25px;
+  background-color: aqua;
+  border: 1px solid aqua;
+  border-radius: 5px;
+
+  font-size: 50px;
+
+  color: blueviolet;
+
+  cursor: pointer;
+}
